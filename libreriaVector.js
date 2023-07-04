@@ -9,6 +9,20 @@ const crearVector = (n, m) =>
     return vector;
 };
 
+ const sumaVector = (v1, v2, v3) =>
+{
+   let v4 = [];
+    if(v1.length == v2.length)
+        {
+           for (let i = 0; i < v1.length; i++) 
+           {
+             v4[i] = v1[i] + v2[i] + v3[i];
+            
+           }
+        }
+    return v4;
+};
+
  const productoNumeroVector = (n, v) =>
 {
     let vectorProdu = [];
