@@ -1,1 +1,1 @@
-# tema6Git
+hubo conflicto porque al tratar de subir cambios de dos ramas en las mismas líneas de código se tiene que determinar que cambio va o si ambos en algunos casos 
