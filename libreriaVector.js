@@ -9,20 +9,6 @@ const crearVector = (n, m) =>
     return vector;
 };
 
- const sumaVector = (v1, v2) =>
-{
-   let v3 = [];
-    if(v1.length == v2.length)
-        {
-           for (let i = 0; i < v1.length; i++) 
-           {
-             v3[i] = v1[i] + v2[i];
-            
-           }
-        }
-    return v3;
-};
-
  const productoNumeroVector = (n, v) =>
 {
     let vectorProdu = [];
@@ -64,4 +50,4 @@ const productoVector = (v1, v2) =>
 
 const cuadrado = n => n * n;
 
-module.exports = {crearVector, sumaVector, productoNumeroVector, restaVector, productoVector, cuadrado};
+module.exports = {crearVector, productoNumeroVector, restaVector, productoVector, cuadrado};
